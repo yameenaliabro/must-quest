@@ -45,7 +45,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         className={cn("bg-gray-50 font-sans antialiased", pretendar.variable)}
       >
         <div className="flex flex-col min-h-screen">
-          <main className="flex-grow px-3 sm:px-0">{children}</main>
+          <main className="flex-grow   ">{children}</main>
         </div>
       </body>
     </html>

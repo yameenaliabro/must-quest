@@ -40,7 +40,7 @@ export function AlertModal({
 }: AlertModalProps) {
   return (
     <AlertDialog open={show} onOpenChange={setShow}>
-      <AlertDialogContent className="sm:w-[400px]">
+      <AlertDialogContent className="sm:w-[400px] ">
         <AlertDialogHeader>
           <AlertDialogTitle className="flex gap-3 items-center">
             {status === "success" ? (

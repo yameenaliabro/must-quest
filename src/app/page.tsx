@@ -5,12 +5,12 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "~/components/ui/tabs";
 export default function Home() {
   return (
     <div className="sm:container">
-      <div className="border-b py-1 pb-4 mb-2">
+      <div className="border-b py-1 pb-4 mb-2 2xl:px-[60px]">
         <strong className="me-3 text-2xl">회원상세</strong>{" "}
         <small className="text-[#FF4D4F]">*필수항목</small>
       </div>
 
-      <div className="mb-10">
+      <div className="mb-10 2xl:px-[60px]">
         <Tabs defaultValue="investment_type_management">
           <ScrollArea className="">
             <TabsList className="grid grid-flow-col justify-stretch">
