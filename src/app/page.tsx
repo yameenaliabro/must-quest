@@ -40,28 +40,8 @@ export default function Home() {
             </TabsList>
             <ScrollBar orientation="horizontal" />
           </ScrollArea>
-          <TabsContent value="basic_information_management">
-            Manage basic information of members here.
-          </TabsContent>
           <TabsContent value="investment_type_management">
             <Investments />
-          </TabsContent>
-          <TabsContent value="check_deposit_withdrawal_details">
-            Check deposit or withdrwal details
-          </TabsContent>
-          <TabsContent value="sales_history_inquiry">
-            Sales history inquiry
-          </TabsContent>
-          <TabsContent value="investment_details_inquiry">
-            Investment details inquiry
-          </TabsContent>
-          <TabsContent value="view_bond_details">View bond details</TabsContent>
-          <TabsContent value="sms_management">SMS Management</TabsContent>
-          <TabsContent value="consultation_history_management">
-            Consultation history management
-          </TabsContent>
-          <TabsContent value="1_1_inquiry_history_inquiry">
-            1:1 inquiry history inquiry
           </TabsContent>
         </Tabs>
       </div>
