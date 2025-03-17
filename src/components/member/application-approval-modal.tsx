@@ -2,14 +2,11 @@ import { Button } from "~/components/ui/button";
 import {
   Dialog,
   DialogContent,
-  DialogDescription,
   DialogFooter,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
 } from "~/components/ui/dialog";
-import { Input } from "~/components/ui/input";
-import { Label } from "~/components/ui/label";
 import {
   Select,
   SelectContent,
@@ -74,7 +71,6 @@ export function ApplicationApprovalModal({
                   파일 선택
                 </Button>
               </div>
-              {/* <Input id="attachDocument" type="file" /> */}
             </div>
             <ul className="list-disc list-inside py-3">
               <li>파일 형식은 jpg, jpeg, gif, png, pdf만 가능합니다.</li>
